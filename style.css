@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.brand {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+  }
+  h1 {
+    margin:0;
+    font-family: "Caveat", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    padding:5px;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #3B169F;
+    font-size: 150%;
+    align-items: center;
+    margin:0px;
+    padding: 0px;
+  }
+ .Logo {
+  display: flex;
+  align-items: center;
+  padding:10px 10px 10px 0px;
+ }
+  header ul a{
+    color: #EBEFFC;
+  }
+  header ul a:hover{
+    color: #C2CEF7 ;
+  }
+  body{
+    margin:0;
+    line-height: 1.5;
+    color:#2A1071;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    
+  }
+ header  ul{
+    list-style:none;
+    padding:5px;
+    display: flex;
+    gap: 15px;
+    flex-grow:1;
+    justify-content: space-evenly;
+  
+}
+div:first-of-type{
+display:flex;
+/* max-width:700px; */
+/* padding: 40px 15px; */
+justify-content: space-evenly;
+}
+
+.intro {
+  display:flex;
+  /* max-width:700px; */
+  padding: 40px 15px;
+  justify-content: space-evenly;
+  }
+
+section:first-of-type{
+  max-width: 700px;
+}
+p{
+  padding:0px 0px 15px 15px;
+}
+ul{
+margin:0;
+}
+form input {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 0;
+  margin-bottom: 15px;
+}
+form input:focus {
+    outline: none;
+}
+form input[type="text"] {
+  border-radius: 10px 0 0 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#2A1071;
+  background-color: #C2CEF7;
+width: 300px;
+}
+form input[type="button"] {
+  border-radius: 0 10px 10px 0;
+  background-color: #2A1071;
+  color: #EBEFFC;
+  /* font-style: italic; */
+  /* font-weight: bold; */
+  
+}
+form input[type="button"]:active {
+  background-color: #4B2E39;
+}
+form input[type="button"]:hover{
+  background-color: #7c94ed;
+}
+
+  .card {
+    border: 1px solid grey;
+    max-width: 400px;
+    background-color: #EBEFFC;
+  }
+  h2 {
+    margin:0;
+  }
+  p{
+    margin:0;
+  }
+  .card-info{
+    display: flex;
+    justify-content: space-between; 
+    padding: 15px;
+  }
+  img {
+    max-width: 100%;
+    /* display: flex; */
+  }
+  main{ 
+    display: flex;
+    /* gap:25px; */
+    padding: 50px 25px;
+    flex-wrap:wrap;
+    background-color: #C2CEF7;
+  }
+  .examples{
+    gap:20px;
+    padding: 0;
+    margin:0;
+  }
+.TOS{
+  display:flex;
+/* max-width:700px; */
+padding: 50px 15px;
+justify-content: space-evenly; 
+margin: 20px;
+}
+.Ethan_Banner{
+  max-width: 100%;
+  margin-bottom: 150px;
+}
+footer{
+  display: flex;
+  background-color: #3B169F;
+  justify-content: space-between;
+  /* font-size: 150%; */
+  align-items: center;
+  margin:0px;
+  padding: 0px;
+}
+.footer_input{
+padding:15px;
+}
+footer ul{
+  list-style:none;
+  padding:0px 50px 0px 0px;
+  display: flex;
+  gap: 15px;
+  flex-grow:1;
+  justify-content: space-evenly;
+}
+footer div ul a{
+  color: #EBEFFC;
+
+}
+footer div ul a:hover{
+  color: #C2CEF7;
+
+}
+/* .linkies {
+  /* background-color: aliceblue; */
+  /* display:flex; */
+
+ .insta{
+  background-color: #EBEFFC;
+  padding: 5px;
+  margin: 5px 10px 5px 15px;
+  border-radius: 10px;
+ }
+ .insta:hover{
+  background-color: #C2CEF7;
+ }
+ .kofi{
+  background-color: #EBEFFC;
+  padding: 5px;
+  margin: 5px 10px 5px 15px;
+  border-radius: 10px;
+ }
+ .kofi:hover{
+  background-color: #C2CEF7;
+ }
+ .twt{
+  background-color: #EBEFFC;
+  padding: 5px;
+  margin: 5px 10px 5px 15px;
+  border-radius: 10px;
+ }
+ .twt:hover{
+  background-color: #C2CEF7;
+ }
+ .twitch{
+  background-color: #EBEFFC;
+  padding: 5px;
+  margin: 5px 10px 5px 15px;
+  border-radius: 10px;
+ }
+ .twitch:hover{
+  background-color: #C2CEF7;
+ }
+ form.footer_input input[type="button"] {
+  background-color: #EBEFFC;
+  color: #2A1071;
+ }
+ form.footer_input input[type="button"]:hover{
+  background-color: #7c94ed;}
